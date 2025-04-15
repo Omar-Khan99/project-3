@@ -171,7 +171,7 @@ def edit_mermaid_code(error, code):
         class pre-training,fine-tuning relationship
     """
     
-    llm = ChatGroq(model="llama3-70b-8192", temperature=0,api_key='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')
+    llm = ChatGroq(model="llama3-70b-8192", temperature=0)
     response = llm.invoke([
     SystemMessage(content=prompt_sys),
     HumanMessage(content=code)
