@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 import os
 from dotenv import load_dotenv
-load_dotenv("project-3\\API.env")
+load_dotenv("API.env")
 
 #GROQ_API_KEY = 'GROQ_API_KEY' # from https://console.groq.com/keys
 
