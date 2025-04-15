@@ -5,7 +5,7 @@ import os
 import webbrowser
 import re
 
-load_dotenv("project-3\\API.env")
+load_dotenv("API.env")
 
 llm = ChatGroq(model="llama3-70b-8192", temperature=0.3)
 
